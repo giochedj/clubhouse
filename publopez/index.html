@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>l'h clubHouse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Benvenuti alla Club House!</h1>
+
+    <div class="tabs">
+      <button class="tab-button active" data-tab="ristorante">Ristorante</button>
+      <button class="tab-button" data-tab="drink">Drink</button>
+      <button class="tab-button" data-tab="caffetteria">Caffetteria</button>
+    </div>
+
+    <div id="ristorante" class="tab-content active">
+      <div class="sub-tabs">
+        <button class="sub-tab-button active" data-sub-tab="bevande">Bevande</button>
+        <button class="sub-tab-button" data-sub-tab="hamburger">Hamburger</button>
+        <button class="sub-tab-button" data-sub-tab="antipasti">Antipasti</button>
+        <button class="sub-tab-button" data-sub-tab="primi">Primi</button>
+        <button class="sub-tab-button" data-sub-tab="secondi">Secondi</button>
+        <button class="sub-tab-button" data-sub-tab="contorni">Contorni</button>
+        <button class="sub-tab-button" data-sub-tab="dessert">Dessert</button>
+      </div>
+      <div id="bevande" class="sub-tab-content active"></div>
+      <div id="hamburger" class="sub-tab-content"></div>
+      <div id="antipasti" class="sub-tab-content"></div>
+      <div id="primi" class="sub-tab-content"></div>
+      <div id="secondi" class="sub-tab-content"></div>
+      <div id="contorni" class="sub-tab-content"></div>
+      <div id="dessert" class="sub-tab-content"></div>
+    </div>
+
+    <div id="drink" class="tab-content">
+      <div class="sub-tabs">
+        <button class="sub-tab-button active" data-sub-tab="aperitivi">Aperitivi</button>
+        <button class="sub-tab-button" data-sub-tab="vermouth">Vermouth</button>
+        <button class="sub-tab-button" data-sub-tab="distillati">Distillati</button>
+        <button class="sub-tab-button" data-sub-tab="amariLiquori">Amari & Liquori</button> 
+        <button class="sub-tab-button" data-sub-tab="whiskies">Whiskies</button>
+        <button class="sub-tab-button" data-sub-tab="gintonic">Gin Tonic</button>
+        <button class="sub-tab-button" data-sub-tab="drink-alcolici">Drink</button> 
+      </div>
+      <div id="aperitivi" class="sub-tab-content active"></div>
+      <div id="vermouth" class="sub-tab-content"></div>
+      <div id="distillati" class="sub-tab-content"></div>
+      <div id="amariLiquori" class="sub-tab-content"></div>
+      <div id="whiskies" class="sub-tab-content"></div>
+      <div id="gintonic" class="sub-tab-content"></div>
+      <div id="drink-alcolici" class="sub-tab-content"></div> 
+    </div>
+
+    <div id="caffetteria" class="tab-content">
+      </div> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
